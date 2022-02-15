@@ -140,25 +140,25 @@ header {
 }
 /* ------------------------------------------------- Main
 -------------------------------------------------------------------------------- */
-main {
+.main-cont {
   width: 85%;
   margin-inline: auto;
   text-align: center;
   margin-top: -75px;
 }
-main > * {
+.main-cont > * {
   background-color: hsl(0, 0%, 100%);
   border-radius: 8px;
   padding: 2rem 1rem 2.25rem;
   margin: 1.5rem 0;
 }
 @media (min-width: 768px) {
-  main {
+  .main-cont {
     width: 50%;
     margin-top: -110px;
   }
   /* TODO - check out later */
-  main > * {
+  .main-cont > * {
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     padding: 2rem 3rem 2.25rem;
